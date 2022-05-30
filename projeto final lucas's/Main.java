@@ -46,7 +46,7 @@ public class Main {
 
             
           
-          if (r1+r2+r3+r4+r5+r6+r7+r8+r9 <= 18 ){
+          if (r1+r2+r3+r4+r5+r6+r7+r8+r9 <= 17 ){
               System.out.println(" Você tem um perfil conservador, você prefere segurança e não ter surpresas desagradáveis com seu dinheiro, mesmo que elas sejam temporárias. \n     Por conta disso, evite investir em coisas mais arriscadas. \n Mesmo que em longo prazo o retorno seja maior, os altos e baixos podem afetar muito suas emoções e decisões de investimento. \n Alocação Sugerida: \n 10% em investimentos arriscados (bolsa de valores, fundos que buscam superar o Ibovespa); \n 30% em investimentos moderados (fundos imobiliários, fundos que buscam superar o CDI); \n  60% em investimentos conservadores (títulos pós fixados, CDBs e fundos que buscam superar a inflação");
             System.out.println("Você sabe por onde começar? Digite 1 para sim e 0 para não.");
             int s1 = meuObj.nextInt();
@@ -63,7 +63,7 @@ public class Main {
         
            
            
-        }if (r1+r2+r3+r4+r5+r6+r7+r8+r9 >= 19) {
+        }if (r1+r2+r3+r4+r5+r6+r7+r8+r9 >= 18) {
               System.out.println("Você tem um perfil moderado, já aceita alguns riscos. Portanto, você deve buscar investimentos que ofereçam maior retorno do que título públicos e renda fixa. \n Porém, evite os que podem ter muitas variações de valor, como ações de companhias menores ou fundos de investimento muito agressivos. \n Alocação Sugerida: \n 30% em investimentos arriscados (bolsa de valores, fundos que buscam superar o Ibovespa); \n 30% em investimentos moderados (fundos imobiliários, fundos que buscam superar o CDI); \n 40% em investimentos conservadores (títulos pós fixados, CDBs e fundos que buscam superar a inflação). " );
               System.out.println("Você sabe por onde começar? Digite 1 para sim e 0 para não.");
               int s2 = meuObj.nextInt();
@@ -80,7 +80,7 @@ public class Main {
               }
          
           
-          }if (r1+r2+r3+r4+r5+r6+r7+r8+r9 > 22){
+          }if (r1+r2+r3+r4+r5+r6+r7+r8+r9 > 20){
             System.out.println("Vocé é alguem do tipo que tem sangue frio e lida bem com riscos. \n Se esse é o seu perfil, procure investir seu dinheiro de longo prazo em investimentos com maior potencial de retorno, deixando pelo menos 25% do seu patrimônio em investimentos seguros. \n Alocação Sugerida: \n 60% em investimentos arriscados (bolsa de valores, fundos que buscam superar o Ibovespa); \n 20% em investimentos moderados (fundos imobiliários, fundos que buscam superar o CDI); \n 20% em investimentos conservadores (títulos pós fixados, CDBs e fundos que buscam superar a inflação). \n Perfil Muito Arriscado. Cuidado! Risco pode significar mais retorno, porém, é importante ter uma reserva de dinheiro sempre garantida e à mão para momentos turbulentos.");
             System.out.println("Você sabe por onde começar? Digite 1 para sim e 0 para não.");
             int s3 = meuObj.nextInt();
